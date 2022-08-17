@@ -1,0 +1,6 @@
+@mixin title($fw, $fz, $Lh, $col) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $Lh;
+  color: $col;
+}

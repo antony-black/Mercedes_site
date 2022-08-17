@@ -1,0 +1,25 @@
+.slider-block {
+
+  &__img {
+    margin-bottom: 25px;
+  }
+}
+
+.slick-arrow{
+  position: relative;
+}
+.arrow{
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.arrow-left{
+  margin-right: 100px;
+}
+
+.arrow-right{
+  margin-left: 100px;
+}

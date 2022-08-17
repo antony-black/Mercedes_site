@@ -1,0 +1,45 @@
+.premier {
+  &__inner {
+    display: flex;
+    gap: 60px;
+  }
+
+  &__column {
+  }
+
+  &__title {
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    margin-bottom: 25px;
+  }
+
+  &__img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  &__btn {
+    display: block;
+    width: 100%;
+    border: 1px solid $color-1;
+    padding: 14px 0;
+    @include title(700, 18px, 120%, $color-1);
+    text-transform: uppercase;
+    transition: all .4s;
+
+    &:hover{
+      color: $color-2;
+      border: 1px solid $color-2;
+    }
+  }
+}
+
+.premier__text--bottom{
+  margin-bottom: 0;
+}
+
+.premier__column--right{
+  padding-top: 40px;
+}

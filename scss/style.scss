@@ -1,0 +1,42 @@
+@import'_variables';
+@import'_mixins';
+@import'_header';
+@import'_concept';
+@import'_premier';
+@import'_video-block';
+@import'_design';
+@import'_slider-block';
+@import'_descr';
+@import'_footer';
+
+
+
+
+
+
+
+
+// =============================
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 400;
+  color: #fff;
+}
+
+button{
+  background-color: transparent;
+  padding: 0;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.title{
+  @include title(700, 18px, 120%, $color-1);
+}
